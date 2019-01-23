@@ -1,7 +1,8 @@
 ### Commads for Configuration
 
-|Command|Note|
+|Read configuration|Note|
 |-------|----|
-|git config [--system\|--global\|--local]| look for configuration at system level, global level or repo level (default cascade through all of these until there is an hit)|
+|git config [--system\|--global\|--local]| look for system, global or repo level configuration file (lower level entries overwrite the parents)|
 |git config --global --list| list the configuration global for the user |
 |git config --local --list| list the configuration specific for this repo |
+|git config --get user.email| get user email |
