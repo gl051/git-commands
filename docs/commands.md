@@ -1,6 +1,6 @@
-### Commands Tables
+## Commands Tables
 
-## configuration
+### Configuration
 
 `git config [--system|--global|--local] <command>`
 
