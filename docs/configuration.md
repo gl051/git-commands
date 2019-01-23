@@ -7,4 +7,5 @@
 |`git config --local --list`| list the configuration specific for this repo |
 |`git config --get user.email`| get user email |
 |**Set Config**|**Note**|
+|:---:|:---:|
 |`git config --local user.email foo@example.com`| set local user email for this repo|
